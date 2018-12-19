@@ -1,1 +1,2 @@
 # QM_FoldingTableViewDemo
+一个基本的折叠功能的UITableView，基类是原本的LMGJ老师的基类，可能部分有改动。
