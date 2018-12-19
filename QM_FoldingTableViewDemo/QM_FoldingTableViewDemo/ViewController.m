@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+//#import "DQMFoldingTableViewController.h"       //折叠的列表
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  self.view.backgroundColor = UIColor.orangeColor;
+  
+//  DQMFoldingTableViewController *vc = [[DQMFoldingTableViewController alloc] init];
+//  vc.navigationItem.title = @"列表的展开和收起";
+//  [self.navigationController pushViewController:vc animated:YES];
+  
 }
 
 

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "IQKeyboardManager.h"                   //弹出的键盘高度控制
+#import "DQMFoldingTableViewController.h"       //折叠的列表
 
 @interface AppDelegate ()
 
@@ -16,7 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  
+  /*配置键盘*/
+  IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+  manager.enable = YES;//    控制整个功能是否启用。
+  manager.overrideKeyboardAppearance = YES;
+  manager.shouldResignOnTouchOutside = YES;//控制点击背景是否收起键盘
+  manager.enableAutoToolbar = YES;//控制是否显示键盘上的工具条。
+  manager.keyboardDistanceFromTextField = 10.0f; // 输入框距离键盘的距离
+  
+  DQMFoldingTableViewController *vc = [[DQMFoldingTableViewController alloc] initWithTitle:@"可折叠列表"];
+  UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+  self.window.rootViewController = navi;
+  
+  
   return YES;
 }
 

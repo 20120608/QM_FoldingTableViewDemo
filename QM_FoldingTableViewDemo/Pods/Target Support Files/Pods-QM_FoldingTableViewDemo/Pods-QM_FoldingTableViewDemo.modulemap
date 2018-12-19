@@ -1,0 +1,6 @@
+framework module Pods_QM_FoldingTableViewDemo {
+  umbrella header "Pods-QM_FoldingTableViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

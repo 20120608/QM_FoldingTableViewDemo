@@ -15,6 +15,26 @@
 		5944BDFD21C896690039DDC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BDFC21C896690039DDC6 /* main.m */; };
 		5944BE0721C896690039DDC6 /* QM_FoldingTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE0621C896690039DDC6 /* QM_FoldingTableViewDemoTests.m */; };
 		5944BE1221C8966A0039DDC6 /* QM_FoldingTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE1121C8966A0039DDC6 /* QM_FoldingTableViewDemoUITests.m */; };
+		5944BE2421C898F90039DDC6 /* DQMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE2321C898F90039DDC6 /* DQMNavigationBar.m */; };
+		5944BE2821C89AED0039DDC6 /* UIView+DQMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE2721C89AED0039DDC6 /* UIView+DQMFrame.m */; };
+		5944BE2E21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE2D21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		5944BE3121C8A04D0039DDC6 /* DQMNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE3021C8A04D0039DDC6 /* DQMNavUIBaseViewController.m */; };
+		5944BE3421C8A0830039DDC6 /* DQMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE3321C8A0830039DDC6 /* DQMNavigationController.m */; };
+		5944BE3721C8D01A0039DDC6 /* DQMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE3621C8D01A0039DDC6 /* DQMTextViewController.m */; };
+		5944BE3A21C8D4880039DDC6 /* DQMRequestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE3921C8D4880039DDC6 /* DQMRequestBaseViewController.m */; };
+		5944BE3E21C8D72D0039DDC6 /* MBProgressHUD+DQM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE3D21C8D72D0039DDC6 /* MBProgressHUD+DQM.m */; };
+		5944BE4121C8DD5D0039DDC6 /* DQMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE4021C8DD5D0039DDC6 /* DQMBaseViewController.m */; };
+		5944BE4421C8E0190039DDC6 /* DQMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE4321C8E0190039DDC6 /* DQMTableViewController.m */; };
+		5944BE4721C8E1350039DDC6 /* DQMAutoRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE4621C8E1350039DDC6 /* DQMAutoRefreshFooter.m */; };
+		5944BE4A21C8E2F40039DDC6 /* DQMFoldingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE4921C8E2F40039DDC6 /* DQMFoldingTableViewController.m */; };
+		5944BE5121C8E4B70039DDC6 /* DQMGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE5021C8E4B70039DDC6 /* DQMGroup.m */; };
+		5944BE5421C8E5580039DDC6 /* DQMTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE5321C8E5580039DDC6 /* DQMTeam.m */; };
+		5944BE5721C8E6AB0039DDC6 /* DQMListExpendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE5621C8E6AB0039DDC6 /* DQMListExpendHeaderView.m */; };
+		5944BE5B21C8E9B00039DDC6 /* UIButton+DQM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE5A21C8E9B00039DDC6 /* UIButton+DQM.m */; };
+		5944BE5E21C8EABB0039DDC6 /* UIView+GestureCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944BE5D21C8EABB0039DDC6 /* UIView+GestureCallback.m */; };
+		5944BE6121C8EE300039DDC6 /* team_dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5944BE6021C8EE300039DDC6 /* team_dictionary.plist */; };
+		5944BE6321C8EF2E0039DDC6 /* Global.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5944BE6221C8EF2E0039DDC6 /* Global.xcassets */; };
+		C88F079484F6C3FCA29F1205 /* Pods_QM_FoldingTableViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E067B5AE245CAE9A0EAF92 /* Pods_QM_FoldingTableViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39E067B5AE245CAE9A0EAF92 /* Pods_QM_FoldingTableViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QM_FoldingTableViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D80B0513AB3BCA7783EBA6A /* Pods-QM_FoldingTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QM_FoldingTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QM_FoldingTableViewDemo/Pods-QM_FoldingTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5944BDEA21C896690039DDC6 /* QM_FoldingTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QM_FoldingTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5944BDED21C896690039DDC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5944BDEE21C896690039DDC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,44 @@
 		5944BE0D21C8966A0039DDC6 /* QM_FoldingTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QM_FoldingTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5944BE1121C8966A0039DDC6 /* QM_FoldingTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QM_FoldingTableViewDemoUITests.m; sourceTree = "<group>"; };
 		5944BE1321C8966A0039DDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5944BE2221C898F90039DDC6 /* DQMNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMNavigationBar.h; sourceTree = "<group>"; };
+		5944BE2321C898F90039DDC6 /* DQMNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMNavigationBar.m; sourceTree = "<group>"; };
+		5944BE2621C89AED0039DDC6 /* UIView+DQMFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DQMFrame.h"; sourceTree = "<group>"; };
+		5944BE2721C89AED0039DDC6 /* UIView+DQMFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DQMFrame.m"; sourceTree = "<group>"; };
+		5944BE2A21C89CFA0039DDC6 /* dqmBasePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dqmBasePrefix.pch; sourceTree = "<group>"; };
+		5944BE2C21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		5944BE2D21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		5944BE2F21C8A04D0039DDC6 /* DQMNavUIBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMNavUIBaseViewController.h; sourceTree = "<group>"; };
+		5944BE3021C8A04D0039DDC6 /* DQMNavUIBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMNavUIBaseViewController.m; sourceTree = "<group>"; };
+		5944BE3221C8A0830039DDC6 /* DQMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMNavigationController.h; sourceTree = "<group>"; };
+		5944BE3321C8A0830039DDC6 /* DQMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMNavigationController.m; sourceTree = "<group>"; };
+		5944BE3521C8D01A0039DDC6 /* DQMTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMTextViewController.h; sourceTree = "<group>"; };
+		5944BE3621C8D01A0039DDC6 /* DQMTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMTextViewController.m; sourceTree = "<group>"; };
+		5944BE3821C8D4880039DDC6 /* DQMRequestBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMRequestBaseViewController.h; sourceTree = "<group>"; };
+		5944BE3921C8D4880039DDC6 /* DQMRequestBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMRequestBaseViewController.m; sourceTree = "<group>"; };
+		5944BE3C21C8D72D0039DDC6 /* MBProgressHUD+DQM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+DQM.h"; sourceTree = "<group>"; };
+		5944BE3D21C8D72D0039DDC6 /* MBProgressHUD+DQM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+DQM.m"; sourceTree = "<group>"; };
+		5944BE3F21C8DD5D0039DDC6 /* DQMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMBaseViewController.h; sourceTree = "<group>"; };
+		5944BE4021C8DD5D0039DDC6 /* DQMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMBaseViewController.m; sourceTree = "<group>"; };
+		5944BE4221C8E0190039DDC6 /* DQMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMTableViewController.h; sourceTree = "<group>"; };
+		5944BE4321C8E0190039DDC6 /* DQMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMTableViewController.m; sourceTree = "<group>"; };
+		5944BE4521C8E1350039DDC6 /* DQMAutoRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMAutoRefreshFooter.h; sourceTree = "<group>"; };
+		5944BE4621C8E1350039DDC6 /* DQMAutoRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMAutoRefreshFooter.m; sourceTree = "<group>"; };
+		5944BE4821C8E2F40039DDC6 /* DQMFoldingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMFoldingTableViewController.h; sourceTree = "<group>"; };
+		5944BE4921C8E2F40039DDC6 /* DQMFoldingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMFoldingTableViewController.m; sourceTree = "<group>"; };
+		5944BE4F21C8E4B70039DDC6 /* DQMGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMGroup.h; sourceTree = "<group>"; };
+		5944BE5021C8E4B70039DDC6 /* DQMGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMGroup.m; sourceTree = "<group>"; };
+		5944BE5221C8E5580039DDC6 /* DQMTeam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMTeam.h; sourceTree = "<group>"; };
+		5944BE5321C8E5580039DDC6 /* DQMTeam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMTeam.m; sourceTree = "<group>"; };
+		5944BE5521C8E6AB0039DDC6 /* DQMListExpendHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMListExpendHeaderView.h; sourceTree = "<group>"; };
+		5944BE5621C8E6AB0039DDC6 /* DQMListExpendHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMListExpendHeaderView.m; sourceTree = "<group>"; };
+		5944BE5921C8E9B00039DDC6 /* UIButton+DQM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+DQM.h"; sourceTree = "<group>"; };
+		5944BE5A21C8E9B00039DDC6 /* UIButton+DQM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DQM.m"; sourceTree = "<group>"; };
+		5944BE5C21C8EABB0039DDC6 /* UIView+GestureCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureCallback.h"; sourceTree = "<group>"; };
+		5944BE5D21C8EABB0039DDC6 /* UIView+GestureCallback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureCallback.m"; sourceTree = "<group>"; };
+		5944BE6021C8EE300039DDC6 /* team_dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = team_dictionary.plist; sourceTree = SOURCE_ROOT; };
+		5944BE6221C8EF2E0039DDC6 /* Global.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Global.xcassets; sourceTree = "<group>"; };
+		9D35CCDF10BA7DEEFDD6930F /* Pods-QM_FoldingTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QM_FoldingTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QM_FoldingTableViewDemo/Pods-QM_FoldingTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88F079484F6C3FCA29F1205 /* Pods_QM_FoldingTableViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +139,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0440A856E87302C9E0DEACE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E067B5AE245CAE9A0EAF92 /* Pods_QM_FoldingTableViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5944BDE121C896690039DDC6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +154,8 @@
 				5944BE0521C896690039DDC6 /* QM_FoldingTableViewDemoTests */,
 				5944BE1021C8966A0039DDC6 /* QM_FoldingTableViewDemoUITests */,
 				5944BDEB21C896690039DDC6 /* Products */,
+				6AE8230F5D972234E1453464 /* Pods */,
+				0440A856E87302C9E0DEACE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +172,10 @@
 		5944BDEC21C896690039DDC6 /* QM_FoldingTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5944BE2521C89AB90039DDC6 /* Category */,
+				5944BE2121C898C90039DDC6 /* BaseViews */,
+				5944BE1F21C8971D0039DDC6 /* BaseControllers */,
+				5944BE4B21C8E44B0039DDC6 /* FoldTableViewController */,
 				5944BDED21C896690039DDC6 /* AppDelegate.h */,
 				5944BDEE21C896690039DDC6 /* AppDelegate.m */,
 				5944BDF021C896690039DDC6 /* ViewController.h */,
@@ -110,6 +185,8 @@
 				5944BDF821C896690039DDC6 /* LaunchScreen.storyboard */,
 				5944BDFB21C896690039DDC6 /* Info.plist */,
 				5944BDFC21C896690039DDC6 /* main.m */,
+				5944BE2A21C89CFA0039DDC6 /* dqmBasePrefix.pch */,
+				5944BE6221C8EF2E0039DDC6 /* Global.xcassets */,
 			);
 			path = QM_FoldingTableViewDemo;
 			sourceTree = "<group>";
@@ -132,6 +209,134 @@
 			path = QM_FoldingTableViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		5944BE1F21C8971D0039DDC6 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE3221C8A0830039DDC6 /* DQMNavigationController.h */,
+				5944BE3321C8A0830039DDC6 /* DQMNavigationController.m */,
+				5944BE2F21C8A04D0039DDC6 /* DQMNavUIBaseViewController.h */,
+				5944BE3021C8A04D0039DDC6 /* DQMNavUIBaseViewController.m */,
+				5944BE3521C8D01A0039DDC6 /* DQMTextViewController.h */,
+				5944BE3621C8D01A0039DDC6 /* DQMTextViewController.m */,
+				5944BE3821C8D4880039DDC6 /* DQMRequestBaseViewController.h */,
+				5944BE3921C8D4880039DDC6 /* DQMRequestBaseViewController.m */,
+				5944BE3F21C8DD5D0039DDC6 /* DQMBaseViewController.h */,
+				5944BE4021C8DD5D0039DDC6 /* DQMBaseViewController.m */,
+				5944BE4221C8E0190039DDC6 /* DQMTableViewController.h */,
+				5944BE4321C8E0190039DDC6 /* DQMTableViewController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		5944BE2121C898C90039DDC6 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE2221C898F90039DDC6 /* DQMNavigationBar.h */,
+				5944BE2321C898F90039DDC6 /* DQMNavigationBar.m */,
+				5944BE4521C8E1350039DDC6 /* DQMAutoRefreshFooter.h */,
+				5944BE4621C8E1350039DDC6 /* DQMAutoRefreshFooter.m */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		5944BE2521C89AB90039DDC6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE5F21C8EAC00039DDC6 /* UIView */,
+				5944BE5821C8E9860039DDC6 /* UIButton+DQM */,
+				5944BE3B21C8D70D0039DDC6 /* MBProgressHUD+DQM */,
+				5944BE2B21C89FBD0039DDC6 /* UINavigationController+FDFullscreenPopGesture */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5944BE2B21C89FBD0039DDC6 /* UINavigationController+FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE2C21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.h */,
+				5944BE2D21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = "UINavigationController+FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		5944BE3B21C8D70D0039DDC6 /* MBProgressHUD+DQM */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE3C21C8D72D0039DDC6 /* MBProgressHUD+DQM.h */,
+				5944BE3D21C8D72D0039DDC6 /* MBProgressHUD+DQM.m */,
+			);
+			path = "MBProgressHUD+DQM";
+			sourceTree = "<group>";
+		};
+		5944BE4B21C8E44B0039DDC6 /* FoldTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE4E21C8E47D0039DDC6 /* model */,
+				5944BE4D21C8E4740039DDC6 /* view */,
+				5944BE4C21C8E4720039DDC6 /* controller */,
+			);
+			path = FoldTableViewController;
+			sourceTree = "<group>";
+		};
+		5944BE4C21C8E4720039DDC6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE6021C8EE300039DDC6 /* team_dictionary.plist */,
+				5944BE4821C8E2F40039DDC6 /* DQMFoldingTableViewController.h */,
+				5944BE4921C8E2F40039DDC6 /* DQMFoldingTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5944BE4D21C8E4740039DDC6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE5521C8E6AB0039DDC6 /* DQMListExpendHeaderView.h */,
+				5944BE5621C8E6AB0039DDC6 /* DQMListExpendHeaderView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5944BE4E21C8E47D0039DDC6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE4F21C8E4B70039DDC6 /* DQMGroup.h */,
+				5944BE5021C8E4B70039DDC6 /* DQMGroup.m */,
+				5944BE5221C8E5580039DDC6 /* DQMTeam.h */,
+				5944BE5321C8E5580039DDC6 /* DQMTeam.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5944BE5821C8E9860039DDC6 /* UIButton+DQM */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE5921C8E9B00039DDC6 /* UIButton+DQM.h */,
+				5944BE5A21C8E9B00039DDC6 /* UIButton+DQM.m */,
+			);
+			path = "UIButton+DQM";
+			sourceTree = "<group>";
+		};
+		5944BE5F21C8EAC00039DDC6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				5944BE2621C89AED0039DDC6 /* UIView+DQMFrame.h */,
+				5944BE2721C89AED0039DDC6 /* UIView+DQMFrame.m */,
+				5944BE5C21C8EABB0039DDC6 /* UIView+GestureCallback.h */,
+				5944BE5D21C8EABB0039DDC6 /* UIView+GestureCallback.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		6AE8230F5D972234E1453464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D80B0513AB3BCA7783EBA6A /* Pods-QM_FoldingTableViewDemo.debug.xcconfig */,
+				9D35CCDF10BA7DEEFDD6930F /* Pods-QM_FoldingTableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5944BE1621C8966A0039DDC6 /* Build configuration list for PBXNativeTarget "QM_FoldingTableViewDemo" */;
 			buildPhases = (
+				AF814E011B95F94BE552BB66 /* [CP] Check Pods Manifest.lock */,
 				5944BDE621C896690039DDC6 /* Sources */,
 				5944BDE721C896690039DDC6 /* Frameworks */,
 				5944BDE821C896690039DDC6 /* Resources */,
+				30DC36A692E5140DB7BB9F7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +442,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5944BE6321C8EF2E0039DDC6 /* Global.xcassets in Resources */,
 				5944BDFA21C896690039DDC6 /* LaunchScreen.storyboard in Resources */,
 				5944BDF721C896690039DDC6 /* Assets.xcassets in Resources */,
 				5944BDF521C896690039DDC6 /* Main.storyboard in Resources */,
+				5944BE6121C8EE300039DDC6 /* team_dictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +466,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30DC36A692E5140DB7BB9F7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QM_FoldingTableViewDemo/Pods-QM_FoldingTableViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QM_FoldingTableViewDemo/Pods-QM_FoldingTableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF814E011B95F94BE552BB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QM_FoldingTableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5944BDE621C896690039DDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5944BE2E21C89FDF0039DDC6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				5944BE2421C898F90039DDC6 /* DQMNavigationBar.m in Sources */,
+				5944BE4121C8DD5D0039DDC6 /* DQMBaseViewController.m in Sources */,
+				5944BE4421C8E0190039DDC6 /* DQMTableViewController.m in Sources */,
+				5944BE5121C8E4B70039DDC6 /* DQMGroup.m in Sources */,
+				5944BE3421C8A0830039DDC6 /* DQMNavigationController.m in Sources */,
+				5944BE3E21C8D72D0039DDC6 /* MBProgressHUD+DQM.m in Sources */,
+				5944BE5E21C8EABB0039DDC6 /* UIView+GestureCallback.m in Sources */,
+				5944BE5421C8E5580039DDC6 /* DQMTeam.m in Sources */,
+				5944BE3121C8A04D0039DDC6 /* DQMNavUIBaseViewController.m in Sources */,
 				5944BDF221C896690039DDC6 /* ViewController.m in Sources */,
+				5944BE3721C8D01A0039DDC6 /* DQMTextViewController.m in Sources */,
+				5944BE3A21C8D4880039DDC6 /* DQMRequestBaseViewController.m in Sources */,
+				5944BE5B21C8E9B00039DDC6 /* UIButton+DQM.m in Sources */,
+				5944BE2821C89AED0039DDC6 /* UIView+DQMFrame.m in Sources */,
 				5944BDFD21C896690039DDC6 /* main.m in Sources */,
+				5944BE4A21C8E2F40039DDC6 /* DQMFoldingTableViewController.m in Sources */,
+				5944BE4721C8E1350039DDC6 /* DQMAutoRefreshFooter.m in Sources */,
+				5944BE5721C8E6AB0039DDC6 /* DQMListExpendHeaderView.m in Sources */,
 				5944BDEF21C896690039DDC6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,16 +710,19 @@
 		};
 		5944BE1721C8966A0039DDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D80B0513AB3BCA7783EBA6A /* Pods-QM_FoldingTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A6RMPCXH3;
+				GCC_PREFIX_HEADER = /Users/piaoduwang/Desktop/QM_FoldingTableViewDemo/QM_FoldingTableViewDemo/QM_FoldingTableViewDemo/dqmBasePrefix.pch;
 				INFOPLIST_FILE = QM_FoldingTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.piaoduwang.foldingTableView.QM-FoldingTableViewDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piaoduwang.foldingTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,16 +730,19 @@
 		};
 		5944BE1821C8966A0039DDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D35CCDF10BA7DEEFDD6930F /* Pods-QM_FoldingTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A6RMPCXH3;
+				GCC_PREFIX_HEADER = /Users/piaoduwang/Desktop/QM_FoldingTableViewDemo/QM_FoldingTableViewDemo/QM_FoldingTableViewDemo/dqmBasePrefix.pch;
 				INFOPLIST_FILE = QM_FoldingTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.piaoduwang.foldingTableView.QM-FoldingTableViewDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piaoduwang.foldingTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
