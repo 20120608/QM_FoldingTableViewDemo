@@ -7,9 +7,9 @@
 //
 
 #import "DQMFoldingTableViewController.h"
-#import "DQMGroup.h"
-#import "DQMTeam.h"
 #import "DQMListExpendHeaderView.h"
+#import "DQMTeam.h"
+#import "DQMGroup.h"
 
 //测试跳转
 #import "ViewController.h"

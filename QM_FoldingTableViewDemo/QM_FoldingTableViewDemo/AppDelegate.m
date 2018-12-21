@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "IQKeyboardManager.h"                   //弹出的键盘高度控制
 #import "DQMFoldingTableViewController.h"       //折叠的列表
+#import "DQMNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -28,7 +29,7 @@
   manager.keyboardDistanceFromTextField = 10.0f; // 输入框距离键盘的距离
   
   DQMFoldingTableViewController *vc = [[DQMFoldingTableViewController alloc] initWithTitle:@"可折叠列表"];
-  UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+  DQMNavigationController *navi = [[DQMNavigationController alloc] initWithRootViewController:vc];
   self.window.rootViewController = navi;
   
   
